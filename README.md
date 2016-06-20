@@ -1,0 +1,1 @@
+This is a responsive website for a Polish Cafe based in Warslow. Th cafe sells coffee, tea and pastries based on local hand-me down recipes. Famous for its sandwiches, The Polish Cafe has seen a decade of existence and literally is very much part of the community
