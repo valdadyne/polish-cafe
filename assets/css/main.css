@@ -1,7 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Poiret+One';
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700';
 
+div{font-family: 'Roboto Condensed', sans-serif;}
+p{font-family: 'Poiret One', sans-serif; font-size: 20px;}
 
-.big-img{height:450px;background-size: 100% 587px;background-repeat: no-repeat;}
-#title{width: 15%;background-color: blue;color:#fff;font-family: 'Roboto Condensed', sans-serif;}
-#title-info{width: 15%;background-color: black;color:#fff;font-family: 'Roboto Condensed', sans-serif;}
+#big-img{height:450px;background-size: 100% 587px;background-repeat: no-repeat;}
+#title{width: 15%;background-color: blue;color:#fff;text-align: center;}
+#title-info{width: 15%;background-color: black;color:#fff;text-align: center;}
+#about{text-align: center;}
