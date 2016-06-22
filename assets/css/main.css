@@ -111,3 +111,9 @@ span.headings{color: #e6400c;}
 .scroll-top-wrapper i.fa {
 	line-height: inherit;
 }
+#map-overlay {
+    height:400px;
+    margin-top:-405px;
+    background-color:#669de5;
+    padding:40px;
+}
