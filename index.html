@@ -12,6 +12,7 @@ Designed by Rodgers M. Gitau 'Valdadyne' for an assignment at Moringa School
 
   <link media="all" href="./assets/css/main.css" type="text/css" rel="stylesheet"/>
   <link media="all" href="./assets/bootstrap-3.3.6-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <!-- Style: For setting background images for various elements -->
@@ -22,17 +23,19 @@ Designed by Rodgers M. Gitau 'Valdadyne' for an assignment at Moringa School
 </style>
 <body>
 <!-- Set a black themed main menu that collapses using Bootstrap's navbar-inverse,navbar-fixed-top & narbar-collapse-->
+<div class="wrapper">
       <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid"><!-- use bootstrap for a responsive navbar -->
+      <div class="container"><!-- use bootstrap for a responsive navbar -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           <a class="navbar-brand" href="#home"></a></div> <!-- set logo for navbar-brand-->
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav"><!-- same page navigation-->
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right"><!-- same page navigation-->
               <li><a href="#about">About</a></li>
               <li><a href="#menus">Menus</a></li>
               <li><a href="#contacts">Contacts</a></li>
@@ -68,6 +71,7 @@ Designed by Rodgers M. Gitau 'Valdadyne' for an assignment at Moringa School
     </div>
   </div>
 <br>
+<br>
 <hr>
 
 </section>
@@ -77,7 +81,7 @@ Designed by Rodgers M. Gitau 'Valdadyne' for an assignment at Moringa School
 <section id="about" class="center-block">
   <h1><span class="headings">About</span></h1>
   <p>Established in the fall of 2005 and already few weeks later this distinct coffee house became one of the city's most popular meeting venues. Until nowadays, its authentic interiors are not only one of first choices for local citizens, but also for tourist, who seek for authentic experiences.It is a sheer delight to sit at The Polish Cafe - relax, read the newspaper and have the best cappuccino in town or a fresh fruit juice. Overlooking a secluded skating park in the heart of the community , this is a charming place to go out for breakfast, lunch, or just for a delicious slice of cake.</p>
-  
+
 <br>
 <hr>
 </section>
@@ -105,11 +109,21 @@ Designed by Rodgers M. Gitau 'Valdadyne' for an assignment at Moringa School
 
 
 </div>
+
+<!-- The scroll to top feature -->
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
+</div>
+
 <!-- Javascript links -->
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI="crossorigin="anonymous"></script>
 <script src="./assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"type="text/javascript"></script>
+<script src="./assets/js/main.js"type="text/javascript"></script>
 
 </body>
 </html>
