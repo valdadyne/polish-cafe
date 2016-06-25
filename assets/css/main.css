@@ -8,7 +8,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700';
 
 /*  */
-div{text-align: center;font-family: 'Roboto Condensed', sans-serif;}
+div{text-align: center;}
 p{font-family: 'Poiret One', sans-serif; font-size: 20px;}
 span.headings{color: #e6400c;}
 .center-block span.headings{color: #e6400c;}
@@ -84,6 +84,7 @@ span.headings{color: #e6400c;}
 #map-overlay {
     height:400px;
     margin-top:-405px;
+    font-size: 14px;
     background-color:#669de5;
     padding:40px;
 }
@@ -201,3 +202,27 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .social-circle a{
  background-color: #D3D3D3;  }
+
+/*--Menu Panels--*/
+.panel-image img.panel-image-preview {
+    width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+	border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+	overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+	padding: 30px 10px;
+	font-size: 1.3em;
+	color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+	height: 0px;
+	padding: 0px;
+}
